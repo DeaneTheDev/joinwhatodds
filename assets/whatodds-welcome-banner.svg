@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e293b"/><stop offset="1" stop-color="#0b1120"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#f59e0b"/></linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fbbf24" stop-opacity=".22"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+    <mask id="notch"><rect x="76" y="156" width="360" height="200" rx="28" fill="#fff"/><circle cx="76" cy="256" r="26" fill="#000"/><circle cx="436" cy="256" r="26" fill="#000"/></mask>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="230" fill="url(#glow)"/>
+  <g transform="translate(200 200) scale(0.72) translate(-256 -256)">
+    <g transform="rotate(-12 256 256)">
+      <rect x="76" y="156" width="360" height="200" rx="28" fill="url(#gold)" mask="url(#notch)"/>
+      <line x1="152" y1="176" x2="152" y2="336" stroke="#0b1120" stroke-width="7" stroke-dasharray="4 16" stroke-linecap="round" opacity=".55"/>
+      <path d="M236 258 L290 312 L392 200" fill="none" stroke="#0b1120" stroke-width="34" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+  <text x="388" y="168" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="96" font-weight="800" letter-spacing="-2"><tspan fill="#fff7e0">What</tspan><tspan fill="url(#gold)">Odds</tspan></text>
+  <text x="392" y="228" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="28" font-weight="500" fill="#cbd5e1">Good-value UK prize competition odds, as they appear.</text>
+  <g transform="translate(388 286)"><rect width="124.8" height="46" rx="23" fill="none" stroke="#fbbf24" stroke-opacity="0.55" stroke-width="2.5"/><text x="22" y="31" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20"><tspan font-weight="700" fill="#fbbf24" fill-opacity="0.55">★</tspan><tspan dx="9" font-weight="600" fill="#fff7e0" fill-opacity="0.75">Good</tspan></text></g>
+  <g transform="translate(526.84375 286)"><rect width="145.6" height="46" rx="23" fill="none" stroke="#fbbf24" stroke-opacity="0.70" stroke-width="2.5"/><text x="22" y="31" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20"><tspan font-weight="700" fill="#fbbf24" fill-opacity="0.70">★★</tspan><tspan dx="9" font-weight="600" fill="#fff7e0" fill-opacity="0.90">Great</tspan></text></g>
+  <g transform="translate(686.453125 286)"><rect width="181.5" height="46" rx="23" fill="none" stroke="#fbbf24" stroke-opacity="0.85" stroke-width="2.5"/><text x="22" y="31" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20"><tspan font-weight="700" fill="#fbbf24" fill-opacity="0.85">★★★</tspan><tspan dx="9" font-weight="600" fill="#fff7e0" fill-opacity="1.00">Superb</tspan></text></g>
+  <g transform="translate(882.0 286)"><rect width="221.1" height="46" rx="23" fill="none" stroke="#fbbf24" stroke-opacity="1.00" stroke-width="2.5"/><text x="22" y="31" font-family="'Inter','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="20"><tspan font-weight="700" fill="#fbbf24" fill-opacity="1.00">★★★★</tspan><tspan dx="9" font-weight="600" fill="#fff7e0" fill-opacity="1.00">Fantastic</tspan></text></g>
+</svg>
